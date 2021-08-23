@@ -1,7 +1,8 @@
 # I have no idea whether this bot still works, it is very old and developed really badly, I'm sorry!
 
-import discord
-import os
+# import discord (this line is essential if you want the bot to work, rmv the hashtag and note)
+
+# import os (this line is not essential if non open source, if is open source, remove the hashtag at the beginning of this line and the note)
 
 client = discord.Client()
 
@@ -44,4 +45,4 @@ async def on_message(message):
   if message.content.startswith('?!'):
       await message.channel.send("Yes... I'm here...!")
 
-client.run(os.getenv('OTHER-FILE-NEEDED-NOT-AVAILABLE'))
+# token meant to go here, you do not need to worry abt hiding with os if done locally or non open source
