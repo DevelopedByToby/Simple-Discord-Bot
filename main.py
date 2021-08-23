@@ -1,4 +1,4 @@
-# I have no idea whether this bot still works, it is developed really badly, I'm sorry!
+# I have no idea whether this bot still works, it is very old and developed really badly, I'm sorry!
 
 import discord
 import os
